@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CatFactView: View {
     
-    @ObservedObject var catFactManager = CatFactManager()
+    @StateObject var catFactManager = CatFactManager()
     
     var body: some View {
         VStack {

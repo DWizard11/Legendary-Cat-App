@@ -9,7 +9,13 @@ import SwiftUI
 
 struct CatImageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        AsyncImage(url: URL(string: "https://cataas.com/c")!) { image in image
+                .resizable()
+                .scaledToFit()
+        } placeholder: {
+            ProgressView()
+            
+        }
     }
 }
 
