@@ -14,6 +14,7 @@
 		4C0C4CB92882604B000777CF /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CB82882604B000777CF /* CatImageView.swift */; };
 		4C0C4CBB288260A7000777CF /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CBA288260A7000777CF /* CatFactView.swift */; };
 		4C0C4CBD28826259000777CF /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CBC28826259000777CF /* CatFactManager.swift */; };
+		4C0C4CBF2882653C000777CF /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CBE2882653C000777CF /* CatFact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4C0C4CB82882604B000777CF /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 		4C0C4CBA288260A7000777CF /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		4C0C4CBC28826259000777CF /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		4C0C4CBE2882653C000777CF /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatFact.swift; path = "Cat App/CatFact.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		4C0C4C9E28826010000777CF = {
 			isa = PBXGroup;
 			children = (
+				4C0C4CBE2882653C000777CF /* CatFact.swift */,
 				4C0C4CA928826010000777CF /* Cat App */,
 				4C0C4CA828826010000777CF /* Products */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				4C0C4CAD28826010000777CF /* ContentView.swift in Sources */,
 				4C0C4CBB288260A7000777CF /* CatFactView.swift in Sources */,
+				4C0C4CBF2882653C000777CF /* CatFact.swift in Sources */,
 				4C0C4CBD28826259000777CF /* CatFactManager.swift in Sources */,
 				4C0C4CAB28826010000777CF /* Cat_AppApp.swift in Sources */,
 				4C0C4CB92882604B000777CF /* CatImageView.swift in Sources */,
