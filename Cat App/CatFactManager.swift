@@ -24,7 +24,8 @@ class CatFactManager: ObservableObject {
                 DispatchQueue.main.async {
                     self.fact = try? decoder.decode(CatFact.self, from: data)
                 }
-                
+            } else if let error = error {
+                print(error.localizedDescription)
             }
         }.resume()
     }

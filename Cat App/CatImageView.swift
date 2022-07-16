@@ -10,8 +10,8 @@ import SwiftUI
 struct CatImageView: View {
     var body: some View {
         AsyncImage(url: URL(string: "https://cataas.com/c")!) { image in image
-                .resizable()
-                .scaledToFit()
+            .resizable()
+            .scaledToFit()
         } placeholder: {
             ProgressView()
             
