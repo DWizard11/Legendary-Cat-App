@@ -32,6 +32,11 @@ class CatInfoManager: ObservableObject {
                 let (catIGData, _) = try await URLSession.shared.data(for: catIGRequest)
                 
                 let catIG = try decoder.decode(CatIG.self, from: catIGData)
+                
+                DispatchQueue.main.async {
+                    self.catInfo = catInfo
+                    self.catIG = catIG
+                }
                                                          
             } catch {
                 print(error.localizedDescription)
