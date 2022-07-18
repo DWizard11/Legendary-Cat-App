@@ -22,6 +22,16 @@
 		4C0C4CC928852F32000777CF /* CatInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CC828852F32000777CF /* CatInfoView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4C0C4CD22885698A000777CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0C4C9F28826010000777CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0C4CA628826010000777CF;
+			remoteInfo = "Cat App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4C0C4CA728826010000777CF /* Cat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0C4CAA28826010000777CF /* Cat_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_AppApp.swift; sourceTree = "<group>"; };
@@ -37,10 +47,18 @@
 		4C0C4CC428852709000777CF /* CatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatInfo.swift; path = "Cat App/CatInfo.swift"; sourceTree = "<group>"; };
 		4C0C4CC628852716000777CF /* CatIG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatIG.swift; path = "Cat App/CatIG.swift"; sourceTree = "<group>"; };
 		4C0C4CC828852F32000777CF /* CatInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatInfoView.swift; path = "Cat App/CatInfoView.swift"; sourceTree = "<group>"; };
+		4C0C4CCE2885698A000777CF /* Cat AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4C0C4CA428826010000777CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0C4CCB2885698A000777CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				4C0C4CA728826010000777CF /* Cat App.app */,
+				4C0C4CCE2885698A000777CF /* Cat AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +133,24 @@
 			productReference = 4C0C4CA728826010000777CF /* Cat App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4C0C4CCD2885698A000777CF /* Cat AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0C4CD42885698A000777CF /* Build configuration list for PBXNativeTarget "Cat AppTests" */;
+			buildPhases = (
+				4C0C4CCA2885698A000777CF /* Sources */,
+				4C0C4CCB2885698A000777CF /* Frameworks */,
+				4C0C4CCC2885698A000777CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0C4CD32885698A000777CF /* PBXTargetDependency */,
+			);
+			name = "Cat AppTests";
+			productName = "Cat AppTests";
+			productReference = 4C0C4CCE2885698A000777CF /* Cat AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,6 +163,10 @@
 				TargetAttributes = {
 					4C0C4CA628826010000777CF = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					4C0C4CCD2885698A000777CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4C0C4CA628826010000777CF;
 					};
 				};
 			};
@@ -143,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				4C0C4CA628826010000777CF /* Cat App */,
+				4C0C4CCD2885698A000777CF /* Cat AppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +196,13 @@
 			files = (
 				4C0C4CB228826010000777CF /* Preview Assets.xcassets in Resources */,
 				4C0C4CAF28826010000777CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0C4CCC2885698A000777CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +227,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4C0C4CCA2885698A000777CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0C4CD32885698A000777CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0C4CA628826010000777CF /* Cat App */;
+			targetProxy = 4C0C4CD22885698A000777CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4C0C4CB328826010000777CF /* Debug */ = {
@@ -351,6 +415,40 @@
 			};
 			name = Release;
 		};
+		4C0C4CD52885698A000777CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwizard11.Cat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat App.app/Cat App";
+			};
+			name = Debug;
+		};
+		4C0C4CD62885698A000777CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwizard11.Cat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat App.app/Cat App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -368,6 +466,15 @@
 			buildConfigurations = (
 				4C0C4CB628826010000777CF /* Debug */,
 				4C0C4CB728826010000777CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0C4CD42885698A000777CF /* Build configuration list for PBXNativeTarget "Cat AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0C4CD52885698A000777CF /* Debug */,
+				4C0C4CD62885698A000777CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

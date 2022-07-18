@@ -21,9 +21,9 @@ struct CatFactView: View {
                     .progressViewStyle(.circular)
             }
         }
-            .onAppear{
-                catFactManager.getCatFact()
-            }
+        .onAppear {
+            catFactManager.getCatFact()
+        }
     }
 }
 
