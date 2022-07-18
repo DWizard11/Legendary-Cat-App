@@ -15,6 +15,10 @@
 		4C0C4CBB288260A7000777CF /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CBA288260A7000777CF /* CatFactView.swift */; };
 		4C0C4CBD28826259000777CF /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CBC28826259000777CF /* CatFactManager.swift */; };
 		4C0C4CBF2882653C000777CF /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CBE2882653C000777CF /* CatFact.swift */; };
+		4C0C4CC1288526EB000777CF /* CatInfoManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CC0288526EB000777CF /* CatInfoManager .swift */; };
+		4C0C4CC3288526FE000777CF /* CatID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CC2288526FE000777CF /* CatID.swift */; };
+		4C0C4CC528852709000777CF /* CatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CC428852709000777CF /* CatInfo.swift */; };
+		4C0C4CC728852716000777CF /* CatIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C4CC628852716000777CF /* CatIG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		4C0C4CBA288260A7000777CF /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		4C0C4CBC28826259000777CF /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
 		4C0C4CBE2882653C000777CF /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatFact.swift; path = "Cat App/CatFact.swift"; sourceTree = "<group>"; };
+		4C0C4CC0288526EB000777CF /* CatInfoManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CatInfoManager .swift"; path = "Cat App/CatInfoManager .swift"; sourceTree = "<group>"; };
+		4C0C4CC2288526FE000777CF /* CatID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatID.swift; path = "Cat App/CatID.swift"; sourceTree = "<group>"; };
+		4C0C4CC428852709000777CF /* CatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatInfo.swift; path = "Cat App/CatInfo.swift"; sourceTree = "<group>"; };
+		4C0C4CC628852716000777CF /* CatIG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatIG.swift; path = "Cat App/CatIG.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,10 @@
 		4C0C4C9E28826010000777CF = {
 			isa = PBXGroup;
 			children = (
+				4C0C4CC0288526EB000777CF /* CatInfoManager .swift */,
+				4C0C4CC2288526FE000777CF /* CatID.swift */,
+				4C0C4CC428852709000777CF /* CatInfo.swift */,
+				4C0C4CC628852716000777CF /* CatIG.swift */,
 				4C0C4CBE2882653C000777CF /* CatFact.swift */,
 				4C0C4CA928826010000777CF /* Cat App */,
 				4C0C4CA828826010000777CF /* Products */,
@@ -149,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0C4CC728852716000777CF /* CatIG.swift in Sources */,
 				4C0C4CAD28826010000777CF /* ContentView.swift in Sources */,
+				4C0C4CC528852709000777CF /* CatInfo.swift in Sources */,
 				4C0C4CBB288260A7000777CF /* CatFactView.swift in Sources */,
 				4C0C4CBF2882653C000777CF /* CatFact.swift in Sources */,
+				4C0C4CC3288526FE000777CF /* CatID.swift in Sources */,
 				4C0C4CBD28826259000777CF /* CatFactManager.swift in Sources */,
+				4C0C4CC1288526EB000777CF /* CatInfoManager .swift in Sources */,
 				4C0C4CAB28826010000777CF /* Cat_AppApp.swift in Sources */,
 				4C0C4CB92882604B000777CF /* CatImageView.swift in Sources */,
 			);
